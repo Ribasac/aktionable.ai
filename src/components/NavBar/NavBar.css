@@ -1,0 +1,57 @@
+.navBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 66px;
+    position: absolute;
+    top: 30px;
+    padding: 0 68px;
+    overflow: hidden;
+    z-index: 1000;
+}
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 0 40px;
+    background: #fff;
+    border-radius: 1000px;
+}
+
+.branding {
+    display: flex;
+    align-items: center;
+    width: 185px;
+    height: 100%;
+}
+
+.navList {
+    display: flex;
+    width: 683px;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.listItem {
+    font-size: 25px;
+    color: var(--color-primary);
+}
+
+.logo {
+    max-width: 100%;
+    margin-bottom: 4px;
+}
+
+.menuIcon {
+    width: 48px;
+    height: 23px;
+    display: flex;
+    align-items: center;
+}
+
+.menuImg {
+    max-height: 100%;
+}
